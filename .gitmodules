@@ -1,0 +1,6 @@
+[submodule "dummy-service1"]
+	path = dummy-service1
+	url = https://github.com/WiktorKania/dummy-service1
+[submodule "dummy-service2"]
+	path = dummy-service2
+	url = https://github.com/WiktorKania/dummy-service2
