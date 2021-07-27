@@ -7,7 +7,7 @@ services:
     build: ./dummy-service2
 
 
-# or
+# or use remote repositories - no need to store submodules locally
 
 # services: 
 #   dummy-service1:
