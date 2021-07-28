@@ -15,3 +15,5 @@ services:
     build: https://github.com/WiktorKania/dummy-service1.git#main
   dummy-service2:
     build: https://github.com/WiktorKania/dummy-service2.git#main
+  dummy-service3:
+    build: https://github.com/WiktorKania/dummy-service3.git#main
