@@ -1,16 +1,17 @@
 version: "3.9"
 
-services: 
-  dummy-service1:
-    build: ./dummy-service1
-  dummy-service2:
-    build: ./dummy-service2
-
-
-# or use remote repositories - no need to store submodules locally
+# build from local files
 
 # services: 
 #   dummy-service1:
-#     build: https://github.com/WiktorKania/dummy-service1.git#main
+#     build: ./dummy-service1
 #   dummy-service2:
-#     build: https://github.com/WiktorKania/dummy-service2.git#main
+#     build: ./dummy-service2
+
+# or use remote repositories - no need to store submodules locally
+
+services: 
+  dummy-service1:
+    build: https://github.com/WiktorKania/dummy-service1.git#main
+  dummy-service2:
+    build: https://github.com/WiktorKania/dummy-service2.git#main
